@@ -20,7 +20,7 @@ totalRepoLen = len(lines)
 repoList = []
 
 for line in lines:
-    repoUrl = line.split(' ')[1]
+    repoUrl = line.split(' ')[5]
     repoList.append(repoUrl)
     
 import threading
