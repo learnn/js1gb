@@ -1,0 +1,275 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 619,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 67,
+      "end": 117,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 71,
+          "end": 116,
+          "id": {
+            "type": "Identifier",
+            "start": 71,
+            "end": 76,
+            "name": "myApp"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 79,
+            "end": 116,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 79,
+              "end": 93,
+              "object": {
+                "type": "Identifier",
+                "start": 79,
+                "end": 86,
+                "name": "angular"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 87,
+                "end": 93,
+                "name": "module"
+              },
+              "computed": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 94,
+                "end": 101,
+                "value": "myApp",
+                "raw": "'myApp'"
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 103,
+                "end": 115,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 104,
+                    "end": 114,
+                    "value": "truncate",
+                    "raw": "'truncate'"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 120,
+      "end": 618,
+      "expression": {
+        "type": "CallExpression",
+        "start": 120,
+        "end": 617,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 120,
+          "end": 136,
+          "object": {
+            "type": "Identifier",
+            "start": 120,
+            "end": 125,
+            "name": "myApp"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 126,
+            "end": 136,
+            "name": "controller"
+          },
+          "computed": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 137,
+            "end": 153,
+            "value": "demoController",
+            "raw": "'demoController'"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 155,
+            "end": 616,
+            "id": null,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 165,
+                "end": 171,
+                "name": "$scope"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 173,
+              "end": 616,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 179,
+                  "end": 531,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 179,
+                    "end": 530,
+                    "operator": "=",
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 179,
+                      "end": 190,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 179,
+                        "end": 185,
+                        "name": "$scope"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 186,
+                        "end": 190,
+                        "name": "text"
+                      },
+                      "computed": false
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 193,
+                      "end": 530,
+                      "value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                      "raw": "'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'"
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 536,
+                  "end": 557,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 536,
+                    "end": 556,
+                    "operator": "=",
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 536,
+                      "end": 551,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 536,
+                        "end": 542,
+                        "name": "$scope"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 543,
+                        "end": 551,
+                        "name": "numChars"
+                      },
+                      "computed": false
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 554,
+                      "end": 556,
+                      "value": 20,
+                      "raw": "20"
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 562,
+                  "end": 582,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 562,
+                    "end": 581,
+                    "operator": "=",
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 562,
+                      "end": 577,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 562,
+                        "end": 568,
+                        "name": "$scope"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 569,
+                        "end": 577,
+                        "name": "numWords"
+                      },
+                      "computed": false
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 580,
+                      "end": 581,
+                      "value": 5,
+                      "raw": "5"
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 587,
+                  "end": 614,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 587,
+                    "end": 613,
+                    "operator": "=",
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 587,
+                      "end": 605,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 587,
+                        "end": 593,
+                        "name": "$scope"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 594,
+                        "end": 605,
+                        "name": "breakOnWord"
+                      },
+                      "computed": false
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 608,
+                      "end": 613,
+                      "value": false,
+                      "raw": "false"
+                    }
+                  }
+                }
+              ]
+            },
+            "expression": false
+          }
+        ]
+      }
+    }
+  ]
+}
